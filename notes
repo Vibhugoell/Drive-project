@@ -1,0 +1,13 @@
+JWT(json web Token) for authenticatioon 
+token and bcrypt is used
+if all routes are in same file it gets cluter
+user and  upload routes and kept separate
+router => used to create routes
+no routes are made in app.js they just config the router
+express validator => checks the data if its write or wrong.
+we dont write the url directly we make it a enviornmental variable
+in the .env file (all the secrets are in there)
+password is not saved normaly it is saved in hash form
+bcrypt is used to convert password to hash
+token is generated because a user only logins once and then further he remains autherized.
+multer to get file fron frontend to storage.
